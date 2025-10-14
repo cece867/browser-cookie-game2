@@ -4,11 +4,14 @@ const message = document.querySelector('message');
 
 let clicksCount = 0;
 
-const buttonElement = document.querySelector('round-button');
-roundButton.addEventListener('click', (event) => {
-  console.log(event);
+const buttonElement = document.querySelector('message');
+roundButton.addEventListener(click, message => {
+  console.log('you win a cookie!', message );
 })
 
+// message.addEventListener(click, message => {
+//   console.log(click, message);
+// })
 // const buttonListElement = document.querySelector('ul');
 let count = 0;
 const Click = () => {
