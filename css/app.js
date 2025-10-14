@@ -1,11 +1,27 @@
 
 const button = document.querySelector('round-button');
-const message = document.querySelector('message');
+const message = document.querySelector('#message');
 
 let clicksCount = 0;
+ round-button.addEventListener('click', () => {
+   count++;
+ })
+if (count === 1) {
+    message.textContent = "You win 1 cookie!";
+  } else {
+    message.textContent = "You win ${count} cookies!";
+  }
 
-const buttonElement = document.querySelector('message');
-roundButton.addEventListener(click, message => {
+
+const msg = document.getElementById('message');
+roundButtonElement.addEventListener('click', function () {
+   message.textContent = "You Win A Cookie!";
+  
+})
+
+ const buttonElement = document.createElement('li)');
+const roundButtonElement = document.querySelector('message');
+roundButtonElementy.addEventListener(click, message => {
   console.log('you win a cookie!', message );
 })
 
@@ -19,20 +35,8 @@ const Click = () => {
     console.log(clicksCount); 
 }
 
-const msg = document.getElementById('message');
-button.addEventListener('click', function () {
-   message.textContent = "You Win A Cookie!";
-  if (count ===1) {
-    message.textContent = "You win a cookie!";
-  } else {
-    message.textContent = "You win ${count} cookies!";
-  }
-  }
-   
-);
-
 
 const roundButton = document.querySelector('.button'); 
-const style = document.createElement('style');
-style.textContent = `
+// const style = document.createElement('style');
+// style.textContent = 
   
